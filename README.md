@@ -19,7 +19,7 @@ that cannot take new software — copy it on, run it, delete it.
 
 ### The network
 
-**switch-wr-tool** · *closed source — employer work, happy to walk through it*
+**switch-wr-tool** · [▶ public demo](https://olay097056.github.io/switch-wr-demo/) · *source closed — employer work, happy to walk through it*
 
 Nightly `write memory` across a 74-switch Cisco fleet, config backup with diff,
 MAC-to-port lookup that follows CDP and port-channels to the real access port,
