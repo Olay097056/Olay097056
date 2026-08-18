@@ -42,11 +42,13 @@ per-terminal frequency for values that are perfectly legal but abnormal *for
 that unit* — the failure mode where a reader quietly mangles a digit and nobody
 notices until someone's attendance stops adding up.
 
-**[time-etwin](https://github.com/Olay097056/time-etwin)**
+**[time-etwin](https://github.com/Olay097056/time-etwin)** · [▶ demo](https://olay097056.github.io/time-etwin/demo/)
 
 The other half of the same problem: floor staff can see a reader is broken but
 have no way to say which one. A floor plan with the readers pinned on it, so
-they report from where the thing is rather than what it is called.
+they report from where the thing is rather than what it is called. The rebuilt
+app also carries the txt-to-excel analysis in the same page — flag a machine
+from the log and it lights up on the map.
 
 ### The routine
 
@@ -131,11 +133,12 @@ Every repo has a README in English and Thai.
 จับค่าที่ถูกต้องทุกอย่างแต่ผิดปกติสำหรับเครื่องนั้น เพราะเครื่องที่อ่านเลขเพี้ยน
 จะไม่บอกใคร กว่าจะรู้ก็ตอนเวลาเข้างานของใครสักคนไม่ตรง
 
-**[time-etwin](https://github.com/Olay097056/time-etwin)**
+**[time-etwin](https://github.com/Olay097056/time-etwin)** · [▶ demo](https://olay097056.github.io/time-etwin/demo/)
 
 อีกด้านของปัญหาเดียวกัน คนหน้างานเห็นว่าเครื่องเสีย แต่บอกไม่ถูกว่าเครื่องไหน
 เลยทำแผนผังพื้นที่ปักหมุดเครื่องไว้ ให้แจ้งจากตรงที่ของมันตั้งอยู่
-ไม่ต้องรู้ว่ามันชื่อรหัสอะไร
+ไม่ต้องรู้ว่ามันชื่อรหัสอะไร แอปที่สร้างใหม่รวมการวิเคราะห์ log แบบ txt-to-excel
+ไว้ในหน้าเดียว เลือกเครื่องจาก log แล้วไฮไลต์บนแผนผังให้ทันที
 
 ### งานประจำ
 
