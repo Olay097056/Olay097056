@@ -23,7 +23,7 @@ that cannot take new software — copy it on, run it, delete it.
 
 ### The network
 
-**switch-wr-tool** · [▶ public demo](https://olay097056.github.io/switch-wr-demo/) · *source closed — employer work, happy to walk through it*
+**[switch-wr-tool](https://olay097056.github.io/switch-wr-demo/)** · *source closed — employer work, happy to walk through it*
 
 Nightly `write memory` across a 74-switch Cisco fleet, config backup with diff,
 MAC-to-port lookup that follows CDP and port-channels to the real access port,
@@ -126,7 +126,7 @@ Every repo has a README in English and Thai.
 
 ### เครือข่าย
 
-**switch-wr-tool** · [▶ demo สาธารณะ](https://olay097056.github.io/switch-wr-demo/) · *โค้ดปิด งานบริษัท ยินดีพาดูเป็นรายคน*
+**[switch-wr-tool](https://olay097056.github.io/switch-wr-demo/)** · *โค้ดปิด งานบริษัท ยินดีพาดูเป็นรายคน*
 
 รัน `write memory` ให้สวิตช์ Cisco 74 ตัวทุกคืน สำรอง config พร้อมหน้าเทียบความต่าง
 ค้นว่า MAC อยู่พอร์ตไหนโดยตาม CDP กับ port-channel ไปจนถึงพอร์ต access จริง
