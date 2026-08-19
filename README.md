@@ -32,6 +32,15 @@ computed once in one place and every endpoint's key set is pinned by a test —
 after a bug where the main view was wrong on 7 of 10 fields because three code
 paths each defined "the fleet" their own way.
 
+**[printer-monitor](https://github.com/Olay097056/printer-monitor)** · [▶ public demo](https://olay097056.github.io/printer-monitor-demo/) · *source closed — employer work, happy to walk through it*
+
+Hourly SNMP poll of a 20-printer fleet against the standard Printer-MIB
+marker-supplies table, so it reads any vendor's toner level — page counts, a
+depletion trend per cartridge, and the date each one runs dry predicted by
+linear regression. Every supply charts on its own card and the "needs
+attention" strip lists what will run out first. Fastify + SQLite + static
+frontend behind a single password.
+
 ### The endpoints
 
 **[txt-to-excel](https://github.com/Olay097056/txt-to-excel)** · [▶ try it](https://olay097056.github.io/txt-to-excel/)
@@ -52,7 +61,7 @@ from the log and it lights up on the map.
 
 ### The routine
 
-**[line-msg-v2](https://github.com/Olay097056/line-msg-v2)**
+**[line-msg](https://github.com/Olay097056/line-msg)** · [▶ demo](https://olay097056.github.io/line-msg-demo/)
 
 Reminders for recurring work nobody schedules, because "we do that every day
 anyway" — right up until the day nobody does. Pushes into the LINE group the
@@ -123,6 +132,14 @@ Every repo has a README in English and Thai.
 กฎนี้มาจากบั๊กจริงที่หน้าหลักแสดงค่าผิดไป 7 จาก 10 คีย์ เพราะโค้ดสามเส้นทาง
 ต่างคนต่างนิยามคำว่า fleet กันเอง
 
+**[printer-monitor](https://github.com/Olay097056/printer-monitor)** · [▶ demo สาธารณะ](https://olay097056.github.io/printer-monitor-demo/) · *โค้ดปิด งานบริษัท ยินดีพาดูเป็นรายคน*
+
+ดึงค่าหมึกจากฝูงเครื่องพิมพ์ 20 ตัวผ่าน SNMP ทุกชั่วโมง โดยอ่านตาราง
+marker-supplies ของ Printer-MIB มาตรฐาน ใช้ได้กับหมึกทุกยี่ห้อ พร้อมนับจำนวน
+หน้าที่พิมพ์, กราฟแนวโน้มหมึกของแต่ละตลับ และทำนายวันที่หมึกจะหมดด้วย
+linear regression ทุกตลับมีกราฟของตัวเอง แถบ "ต้องการความสนใจ" บอกตัวไหนจะ
+หมดก่อน ทำด้วย Fastify + SQLite + หน้าเว็บ static ปกป้องด้วยรหัสผ่านเดียว
+
 ### อุปกรณ์ปลายทาง
 
 **[txt-to-excel](https://github.com/Olay097056/txt-to-excel)** · [▶ ลองใช้](https://olay097056.github.io/txt-to-excel/)
@@ -142,7 +159,7 @@ Every repo has a README in English and Thai.
 
 ### งานประจำ
 
-**[line-msg-v2](https://github.com/Olay097056/line-msg-v2)**
+**[line-msg](https://github.com/Olay097056/line-msg)** · [▶ ลอง demo](https://olay097056.github.io/line-msg-demo/)
 
 เตือนงาน routine ที่ไม่มีใครตั้งเตือน เพราะ "ก็ทำทุกวันอยู่แล้ว" จนถึงวันที่ไม่มีใครทำ
 ระบบยิงเข้ากลุ่ม LINE ที่ทีมเปิดอยู่แล้ว แก้เวลาและข้อความได้จากหน้าเว็บ
