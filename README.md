@@ -172,6 +172,13 @@ linear regression ทุกตลับมีกราฟของตัวเ�
 แถว `sent` เขียนลงฐานข้อมูลก่อนเรียก API ให้ database constraint เป็นตัวกันส่งซ้ำ
 ไม่ใช่หวังว่า cron จะไม่ยิงซ้อนกันเอง
 
+**[NewHireFormatter](https://github.com/Olay097056/NewHireFormatter)**
+
+โปรแกรม Windows Forms เขียนด้วย C# ไว้จัดเรียงรายชื่อพนักงานใหม่ให้เป็นรูปแบบที่
+ระบบ Access Door รับได้ก่อนนำเข้า เพื่อให้ฝ่าย HR เติมข้อมูลลงไปทีละช่องตาม
+หน้ากรอกของระบบได้เลย ไม่ต้องมานั่งเรียงคอลัมน์มือทุกคน พร้อมเช็คความถูกต้อง
+ของข้อมูลเบื้องต้นด้วย
+
 ### นอกเวลางาน
 
 **[portfolio-tracker](https://github.com/Olay097056/portfolio-tracker)** · [▶ เปิดแอปจริง](https://portfolio-tracker-taupe-two.vercel.app)
