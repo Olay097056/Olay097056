@@ -51,7 +51,7 @@ per-terminal frequency for values that are perfectly legal but abnormal *for
 that unit* — the failure mode where a reader quietly mangles a digit and nobody
 notices until someone's attendance stops adding up.
 
-**[time-etwin](https://github.com/Olay097056/time-etwin)** · [▶ demo](https://olay097056.github.io/time-etwin/demo/)
+**[time-etwin](https://olay097056.github.io/time-etwin-demo/)** · *source closed — employer work, happy to walk through it*
 
 The other half of the same problem: floor staff can see a reader is broken but
 have no way to say which one. A floor plan with the readers pinned on it, so
@@ -154,7 +154,7 @@ linear regression ทุกตลับมีกราฟของตัวเ�
 จับค่าที่ถูกต้องทุกอย่างแต่ผิดปกติสำหรับเครื่องนั้น เพราะเครื่องที่อ่านเลขเพี้ยน
 จะไม่บอกใคร กว่าจะรู้ก็ตอนเวลาเข้างานของใครสักคนไม่ตรง
 
-**[time-etwin](https://github.com/Olay097056/time-etwin)** · [▶ demo](https://olay097056.github.io/time-etwin/demo/)
+**[time-etwin](https://olay097056.github.io/time-etwin-demo/)** · *โค้ดปิด งานบริษัท ยินดีพาดูเป็นรายคน*
 
 อีกด้านของปัญหาเดียวกัน คนหน้างานเห็นว่าเครื่องเสีย แต่บอกไม่ถูกว่าเครื่องไหน
 เลยทำแผนผังพื้นที่ปักหมุดเครื่องไว้ ให้แจ้งจากตรงที่ของมันตั้งอยู่
