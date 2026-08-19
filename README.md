@@ -61,7 +61,7 @@ from the log and it lights up on the map.
 
 ### The routine
 
-**[line-msg](https://github.com/Olay097056/line-msg)** · [▶ demo](https://olay097056.github.io/line-msg-demo/)
+**[line-msg](https://github.com/Olay097056/line-msg)** · [▶ demo](https://line-msg.pages.dev/demo)
 
 Reminders for recurring work nobody schedules, because "we do that every day
 anyway" — right up until the day nobody does. Pushes into the LINE group the
@@ -163,7 +163,7 @@ linear regression ทุกตลับมีกราฟของตัวเ�
 
 ### งานประจำ
 
-**[line-msg](https://github.com/Olay097056/line-msg)** · [▶ ลอง demo](https://olay097056.github.io/line-msg-demo/)
+**[line-msg](https://github.com/Olay097056/line-msg)** · [▶ ลอง demo](https://line-msg.pages.dev/demo)
 
 เตือนงาน routine ที่ไม่มีใครตั้งเตือน เพราะ "ก็ทำทุกวันอยู่แล้ว" จนถึงวันที่ไม่มีใครทำ
 ระบบยิงเข้ากลุ่ม LINE ที่ทีมเปิดอยู่แล้ว แก้เวลาและข้อความได้จากหน้าเว็บ
