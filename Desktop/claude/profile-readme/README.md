@@ -74,6 +74,10 @@ never fires twice.
 
 C# Windows Forms Application for formatting new hire employee data to integrate with Access Door systems. Streamlines HR onboarding by automating data formatting for physical access control, eliminating manual entry errors and reducing processing time. Supports CSV/TXT input formats with built-in validation and self-testing utilities.
 
+**[NewHireFormatter](https://github.com/Olay097056/NewHireFormatter)** · [▶ demo](https://github.com/Olay097056/NewHireFormatter)
+
+C# Windows Forms Application for formatting new hire employee data to integrate with Access Door systems. Streamlines HR onboarding by automating data formatting for physical access control, eliminating manual entry errors and reducing processing time. Supports CSV/TXT input formats with built-in validation and self-testing utilities.
+
 ### Off the clock
 
 **[portfolio-tracker](https://github.com/Olay097056/portfolio-tracker)** · [▶ live app](https://portfolio-tracker-taupe-two.vercel.app)
@@ -171,6 +175,10 @@ linear regression ทุกตลับมีกราฟของตัวเ�
 
 แถว `sent` เขียนลงฐานข้อมูลก่อนเรียก API ให้ database constraint เป็นตัวกันส่งซ้ำ
 ไม่ใช่หวังว่า cron จะไม่ยิงซ้อนกันเอง
+
+**[NewHireFormatter](https://github.com/Olay097056/NewHireFormatter)** · [▶ demo](https://github.com/Olay097056/NewHireFormatter)
+
+โปรแกรม C# Windows Forms สำหรับจัดรูปแบบข้อมูลพนักงานใหม่เพื่อนำเข้าระบบประตูอัตโนมัติ (Access Door) เครื่องมือนี้ช่วยเพิ่มประสิทธิภาพในกระบวนการรับสมัครพนักงานโดยอัตโนมัติข้อมูลสำหรับระบบควบคุมการเข้าถึงทางกายภาพ ลดข้อผิดพลาดในการป้อนข้อมูลด้วยตนเอง ลดเวลาในการประมวลผล เมื่อเพิ่มพนักงานใหม่เข้าสู่ระบบควบคุมการเข้าถึงทางกายภาพ รองรับ CSV/TXT input formats พร้อม validation และ self-testing utilities
 
 **[NewHireFormatter](https://github.com/Olay097056/NewHireFormatter)** · [▶ demo](https://github.com/Olay097056/NewHireFormatter)
 
