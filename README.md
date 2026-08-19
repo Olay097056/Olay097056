@@ -70,6 +70,10 @@ The `sent` row is written to the database *before* the API call, so a uniqueness
 constraint prevents duplicate messages rather than the hope that the scheduler
 never fires twice.
 
+**[NewHireFormatter](https://github.com/Olay097056/NewHireFormatter)** · [▶ demo](https://github.com/Olay097056/NewHireFormatter)
+
+C# Windows Forms Application for formatting new hire employee data to integrate with Access Door systems. Streamlines HR onboarding by automating data formatting for physical access control, eliminating manual entry errors and reducing processing time. Supports CSV/TXT input formats with built-in validation and self-testing utilities.
+
 ### Off the clock
 
 **[portfolio-tracker](https://github.com/Olay097056/portfolio-tracker)** · [▶ live app](https://portfolio-tracker-taupe-two.vercel.app)
