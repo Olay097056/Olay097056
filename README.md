@@ -70,9 +70,13 @@ The `sent` row is written to the database *before* the API call, so a uniqueness
 constraint prevents duplicate messages rather than the hope that the scheduler
 never fires twice.
 
-**[NewHireFormatter](https://github.com/Olay097056/NewHireFormatter)** · [▶ demo](https://github.com/Olay097056/NewHireFormatter)
+**[NewHireFormatter](https://olay097056.github.io/newhireformatter-demo/)** · *source closed — employer work, happy to walk through it*
 
-C# Windows Forms Application for formatting new hire employee data to integrate with Access Door systems. Streamlines HR onboarding by automating data formatting for physical access control, eliminating manual entry errors and reducing processing time. Supports CSV/TXT input formats with built-in validation and self-testing utilities.
+A Windows Forms tool that turns a new-hire spreadsheet into the exact
+caret-separated line format the door-access system expects
+(`Name^EN^^CostCenter^StartDate^EndDate^Doors`), with a door preset per
+department and inline validation before the file can be saved — the format
+HR used to build by hand, one column at a time.
 
 ### Off the clock
 
@@ -172,12 +176,12 @@ linear regression ทุกตลับมีกราฟของตัวเ�
 แถว `sent` เขียนลงฐานข้อมูลก่อนเรียก API ให้ database constraint เป็นตัวกันส่งซ้ำ
 ไม่ใช่หวังว่า cron จะไม่ยิงซ้อนกันเอง
 
-**[NewHireFormatter](https://github.com/Olay097056/NewHireFormatter)**
+**[NewHireFormatter](https://olay097056.github.io/newhireformatter-demo/)** · *โค้ดปิด งานบริษัท ยินดีพาดูเป็นรายคน*
 
-โปรแกรม Windows Forms เขียนด้วย C# ไว้จัดเรียงรายชื่อพนักงานใหม่ให้เป็นรูปแบบที่
-ระบบ Access Door รับได้ก่อนนำเข้า เพื่อให้ฝ่าย HR เติมข้อมูลลงไปทีละช่องตาม
-หน้ากรอกของระบบได้เลย ไม่ต้องมานั่งเรียงคอลัมน์มือทุกคน พร้อมเช็คความถูกต้อง
-ของข้อมูลเบื้องต้นด้วย
+โปรแกรม Windows Forms แปลงรายชื่อพนักงานใหม่ให้เป็นบรรทัดตามรูปแบบที่ระบบ
+ควบคุมประตูต้องการเป๊ะๆ (`Name^EN^^CostCenter^StartDate^EndDate^Doors`
+คั่นด้วยเครื่องหมาย ^) มี preset ประตูตามแผนกให้เลือก และตรวจความถูกต้อง
+ก่อนบันทึกไฟล์ได้เลย จากเดิมที่ HR ต้องมาเรียงคอลัมน์เองทีละแถว
 
 ### นอกเวลางาน
 
