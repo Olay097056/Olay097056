@@ -32,7 +32,7 @@ computed once in one place and every endpoint's key set is pinned by a test —
 after a bug where the main view was wrong on 7 of 10 fields because three code
 paths each defined "the fleet" their own way.
 
-**[printer-monitor](https://github.com/Olay097056/printer-monitor)** · [▶ public demo](https://olay097056.github.io/printer-monitor-demo/) · *source closed — employer work, happy to walk through it*
+**[printer-monitor](https://olay097056.github.io/printer-monitor-demo/)** · *source closed — employer work, happy to walk through it*
 
 Hourly SNMP poll of a 20-printer fleet against the standard Printer-MIB
 marker-supplies table, so it reads any vendor's toner level — page counts, a
@@ -140,7 +140,7 @@ Every repo has a README in English and Thai.
 กฎนี้มาจากบั๊กจริงที่หน้าหลักแสดงค่าผิดไป 7 จาก 10 คีย์ เพราะโค้ดสามเส้นทาง
 ต่างคนต่างนิยามคำว่า fleet กันเอง
 
-**[printer-monitor](https://github.com/Olay097056/printer-monitor)** · [▶ demo สาธารณะ](https://olay097056.github.io/printer-monitor-demo/) · *โค้ดปิด งานบริษัท ยินดีพาดูเป็นรายคน*
+**[printer-monitor](https://olay097056.github.io/printer-monitor-demo/)** · *โค้ดปิด งานบริษัท ยินดีพาดูเป็นรายคน*
 
 ดึงค่าหมึกจากฝูงเครื่องพิมพ์ 20 ตัวผ่าน SNMP ทุกชั่วโมง โดยอ่านตาราง
 marker-supplies ของ Printer-MIB มาตรฐาน ใช้ได้กับหมึกทุกยี่ห้อ พร้อมนับจำนวน
