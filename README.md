@@ -59,6 +59,21 @@ they report from where the thing is rather than what it is called. The rebuilt
 app also carries the txt-to-excel analysis in the same page — flag a machine
 from the log and it lights up on the map.
 
+### The control room
+
+**bit-vms** · [▶ see the interface](https://olay097056.github.io/bit-vms-demo/) · *source closed — employer work, happy to walk through it*
+
+A web CCTV VMS that replaces Hikvision's iVMS-4200 for a 124-camera /
+7-recorder fleet. Hover a live tile, choose "3 minutes back", and the playback
+page is already rolling — because the segment pipeline starts serving while
+ffmpeg is still capturing, after measuring that whole-file-then-serve could
+never beat a recorder pulling at ~1× realtime. Signal probing checks one
+sub-stream per channel with 250 ms stagger, exponential backoff, and anti-herd
+jitter; a dead camera goes amber within two rounds without making a recorder
+stumble. Wall tour auto-switching, a health page readable from across the room
+(with a clock-drift badge), and admin/operator/viewer roles with per-camera
+grants — every action audited by name.
+
 ### The routine
 
 **[line-msg](https://github.com/Olay097056/line-msg)** · [▶ demo](https://line-msg.pages.dev/demo)
@@ -164,6 +179,19 @@ linear regression ทุกตลับมีกราฟของตัวเ�
 เลยทำแผนผังพื้นที่ปักหมุดเครื่องไว้ ให้แจ้งจากตรงที่ของมันตั้งอยู่
 ไม่ต้องรู้ว่ามันชื่อรหัสอะไร แอปที่สร้างใหม่รวมการวิเคราะห์ log แบบ txt-to-excel
 ไว้ในหน้าเดียว เลือกเครื่องจาก log แล้วไฮไลต์บนแผนผังให้ทันที
+
+### ห้องคุมกล้อง
+
+**bit-vms** · [▶ ดูหน้าตาโปรแกรม](https://olay097056.github.io/bit-vms-demo/) · *โค้ดปิด งานบริษัท ยินดีพาดูเป็นรายคน*
+
+Web VMS ที่เขียนแทน iVMS-4200 สำหรับกล้อง 124 ช่อง / 7 เครื่องบันทึก — ชี้ tile
+ดูสดเลือก "ถอยหลัง 3 นาที" หน้าย้อนหลังเล่นต่อทันที เพราะ pipeline เสิร์ฟไฟล์
+ระหว่างที่ ffmpeg ยังดึงอยู่ (จากการวัดว่าเครื่องบันทึกป้อนข้อมูล ~1× realtime
+ถ้ารอไฟล์จบก่อนคือไม่มี timeout ไหนพอ) probe สัญญาณเช็กทีละช่องบนสตรีมย่อย
+ทยอย 250ms พร้อม backoff กันทั้งฝูงตื่นพร้อมกัน กล้องหลุดขึ้นไฟอำพันภายใน 2 รอบ
+โดยเครื่องบันทึกไม่สะดุด · วนกล้องอัตโนมัติ, หน้าสุขภาพอ่านออกจากฝั่งห้อง
+(มีเตือนนาฬิกาเครื่องบันทึกเพี้ยน), และสิทธิ์ admin/operator/viewer รายกล้อง
+ที่ audit ทุก action ด้วยชื่อผู้ใช้
 
 ### งานประจำ
 
