@@ -103,6 +103,34 @@ and thrown out — replaced by a fitted logistic regression and an LLM read show
 side by side, rather than re-weighted until it looked better.
 
 **[thai-lottery-stats](https://github.com/Olay097056/thai-lottery-stats)** · [▶ run the backtest](https://olay097056.github.io/thai-lottery-stats/demo/)
+**[ttm-bot](https://github.com/Olay097056/ttm-bot)** · *ไม่มี demo — รันในเครื่องเท่านั้น*
+
+แย่งที่นั่งจากคิว thaiticketmajor.com ก่อนที่หน้าเว็บจะนิ่ง — พยายามยัดบัตรใส่ตะกร้า
+ก่อนที่คนโทรศัพท์เข้ามาคนต่อไปจะหาแผนผังโซนเจอ เลือกที่จะรันบนเครื่อง Windows
+เครื่องนี้ด้วย IP บ้านโดยเจตนา — IP ของ Cloudflare โดน Akamai บล็อก sensor wall ที่
+thaiticketmajor.com ตั้งไว้กันบอท บอทเลยต้องรันจากบ้าน Node 24, node:sqlite, session
+เดียวของ Playwright ผ่านโปรไฟล์ Chrome ที่ mint ใหม่ แล้ว dashboard ก็ refresh
+สถานะของตัวเองทุก 2 วินาทีโดยไม่ต้อง paste token ใส่การ์ด sign-in
+
+ที่มันไม่ทำ: จ่ายเงิน — บอทจะหยุดที่หน้าเลือกช่องทางชำระเงิน ให้ผมเลือกเอง
+ไม่มีสคริปต์ไหนแตะบัตรเครดิตจริง
+
+**[Live demo](https://olay097056.github.io/ttm-bot-demo/)** — หน้า static อธิบาย flow ของบอท
+**[ttm-bot](https://github.com/Olay097056/ttm-bot)** · *no live demo — runs locally only*
+
+Heads off the thaiticketmajor.com ticket queue before the page even settles.
+Tries to put a seat in your cart before the next human caller can find the
+zone map. The hosting choice is deliberate — Cloudflare's IP blocks Akamai's
+sensor wall that thaiticketmajor.com puts up for bot traffic, so the bot has
+to run from this Windows machine on my home IP. Node 24, node:sqlite, a
+single Playwright session against a freshly minted Chrome profile, and a
+dashboard that refreshes its own state every 2 seconds without me pasting a
+token into a sign-in card.
+
+What it does not do: pay. The cart lands on the payment-method screen so I
+can pick the channel myself — never letting a script touch a real credit card.
+
+**[Live demo](https://olay097056.github.io/ttm-bot-demo/)** — static page describing the bot's flow, no live checkout
 
 Backtests every Thai lottery "lucky number formula" against 780 real draws with
 holdout discipline and baseline-adjusted edge. The answer is mostly no, and the
